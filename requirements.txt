@@ -1,0 +1,16 @@
+fastapi==0.103.1
+uvicorn==0.23.2
+opencv-python==4.8.0.76
+numpy==1.26.4
+pillow==10.2.0
+torch==2.1.0+cu118
+torchvision==0.16.0+cu118
+torchaudio==2.1.0 
+mediapipe==0.10.21
+rembg==2.0.61  # для удаления фона
+tensorflow==2.15.0  # если используется в utilss.py
+python-multipart==0.0.6
+pydantic==2.5.3
+starlette
+loguru==0.7.2  # опционально: красивые логи
+--extra-index-url https://download.pytorch.org/whl/cu118 
