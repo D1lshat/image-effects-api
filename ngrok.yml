@@ -1,0 +1,5 @@
+version: "2"
+tunnels:
+  image-effects-api:
+    addr: 5000
+    proto: http
