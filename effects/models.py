@@ -1,7 +1,7 @@
 import mediapipe as mp
 from functools import lru_cache
 import logging
-
+# Это тестовая функция которая должна генерировать изображение по описание. В проекте он не используется так как API для такой работы явялются платными
 @lru_cache(maxsize=1)
 def get_selfie_segmentation_model():
     """Возвращает закэшированную модель SelfieSegmentation"""
