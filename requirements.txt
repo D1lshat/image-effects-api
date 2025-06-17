@@ -7,4 +7,7 @@ opencv-python-headless>=4.11.0.86
 numpy>=1.26.4
 mediapipe>=0.10.21 
 uvicorn>=0.34.2
-
+freeze
+openai
+python-dotenv
+python-multipart
