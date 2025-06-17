@@ -24,6 +24,4 @@ API для обработки изображений с поддержкой м�
 устанавливай pytorch 
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118 
 
-
-
 ngrok start --config=ngrok.yml image-effects-api
